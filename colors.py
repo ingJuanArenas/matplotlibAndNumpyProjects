@@ -16,3 +16,7 @@ for i in range(200):
 plt.imshow(img)
 plt.axis('off')
 plt.show()
+
+matrix= np.random.randint(0, 256, (100,100))
+plt.imshow(matrix, cmap="gray")
+plt.show()
